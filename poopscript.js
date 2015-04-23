@@ -25,7 +25,7 @@ function walkAndReplace(node)
     case 3:
       var val = node.nodeValue;
       // "cringe" abusers can be sneaky with their typos
-      val = val.replace(/cringe?ing|cringe?\-ing/ig, 'pooping');
+      val = val.replace(/cringe?-*ing/ig, 'pooping');
       // try to catch all "cringe-worthy" and "cringe-inducing"
       val = val.replace(/cringe? *-* *(?:wort\w*|wroht\w*|worh\w*|indu\w*|y(?=\W|$))/ig, 'poop-my-pants-inducing');
       val = val.replace(/so much cringe/ig, 'I have always disliked cute animals.');
