@@ -16,7 +16,7 @@ pull requests. I just wanted to get this done so I could have a more pleasant an
 less "cringe-y" reddit experience.
 
 ### Installation
-Go to [your Chrome extensions page](chrome://extensions), load the crx (you may need to enable developer mode), and enjoy.
+Go to your Chrome extensions page (chrome://extensions), load the crx (you may need to enable developer mode), and enjoy.
 
 ### License
 It's all yours.
